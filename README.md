@@ -53,7 +53,6 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
    ```sh
    git clone --depth 1 --branch openscaler https://github.com/OpenScalerEngineeringTeam/kubernetes-demo.git
-   cd kubernetes-demo/
    ```
 
    The `--depth 1` argument skips downloading git history.
@@ -62,10 +61,10 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
 4. Deploy Online Boutique to the cluster :
 
-   From the root folder of this repository, navigate to the kustomize/ directory.
+   From the root folder of this repository, navigate to the kustomize/ directory inside your cloned repository.
 
    ```bash
-   cd kustomize/
+   cd kubernetes-demo/kustomize/
    ```
 
    See what the default Kustomize configuration defined by kustomize/kustomization.yaml will generate (without actually deploying them yet).
